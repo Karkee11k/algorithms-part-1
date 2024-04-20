@@ -8,15 +8,15 @@ import edu.princeton.cs.algs4.StdOut;
  * @author Karthikeyan
  */
 public class Board {
-    private int[][] tiles;      // Tiles in the board
-    private int n;              // Dimension of the board
-    private int hamming   = -1; // Hamming distance to the goal board
-    private int manhattan = -1; // Manhattan distance to the goal board
-    private int blankRow;       // Row index of the blank tile
-    private int blankCol;       // Column index of the blank tile
+    private int[][] tiles;      // tiles in the board
+    private int n;              // dimension of the board
+    private int hamming   = -1; // hamming distance to the goal board
+    private int manhattan = -1; // manhattan distance to the goal board
+    private int blankRow;       // row index of the blank tile
+    private int blankCol;       // column index of the blank tile
 
     /**
-     * Create a board from an n-by-n array of tiles, where 
+     * Creates a board from an n-by-n array of tiles, where 
      * tiles[i][j] = tile at (row, col).
      * 
      * @param tiles tiles in the board.
