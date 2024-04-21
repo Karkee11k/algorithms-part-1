@@ -83,7 +83,7 @@ public class Solver {
         private Node prev;
         private Board board;
         private int moves;
-        private int manhattan = -1;
+        private int manhattan;
 
         Node(Board board, Node prev, int moves) {
             this.board = board;
