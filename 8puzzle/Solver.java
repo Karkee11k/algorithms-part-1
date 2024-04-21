@@ -59,9 +59,9 @@ public class Solver {
 
     /**
      * Returns the sequence of boards in a shortest solution; null if 
-     * solvable.
+     * unsolvable.
      * @return returns the sequence of boards in a shorted solution; null
-     * if solvable
+     * if unsolvable
      */
     public Iterable<Board> solution() {
         if (!isSolvable())  return null;
@@ -73,7 +73,7 @@ public class Solver {
         return boards;
     }
     
-    // Returns true if the board is unsolvable
+    // returns true if the board is unsolvable
     private boolean isUnsolvable(Node node) {
         return node.board.twin().isGoal();
     }
