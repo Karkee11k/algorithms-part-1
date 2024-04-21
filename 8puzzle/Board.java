@@ -39,7 +39,7 @@ public class Board {
 
     /**
      * Returns the string representation of the board.
-     * @return returns the string representation {@code boardString}
+     * @return returns the string representation
      */
     @Override
     public String toString() {
